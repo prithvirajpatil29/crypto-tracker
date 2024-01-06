@@ -1,0 +1,33 @@
+.background{
+    background: url('../src/assets/banner2.jpg') no-repeat center;
+    background-size: cover;
+    height: 70vh;
+}
+.h1crypto{
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+.searchinput{
+    border: 1px solid #0DCAF0;
+    outline: 0;
+    /* margin: 0px 10px; */
+}
+@media(max-width:768px){
+    .background{
+        height: 40vh;
+    }
+}
+.searchinput::placeholder{
+    font-weight: bolder;
+    color: #fff;
+
+}
+.coinshead{
+    padding: 0;
+}
+.upsidebtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
